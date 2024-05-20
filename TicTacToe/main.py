@@ -8,7 +8,7 @@ class TicTacToeMainMenu(Tk):
     super().__init__()
 
     self.title("TicTacToe")
-    self.geometry("327x350")
+    self.geometry("325x350")
 
     self["bg"]="lightblue"
 
