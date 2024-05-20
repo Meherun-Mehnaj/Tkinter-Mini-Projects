@@ -66,7 +66,7 @@ class TicTacToe1(Tk):
                 return
             self.player = "O"
             self.label1.config(text="Player O's turn")
-            self.after(600, self.computer_move)  
+            self.after(700, self.computer_move)  
 
     def computer_move(self):
         empty_buttons = [btn for btn in self.get_buttons() if btn["text"] == " "]
