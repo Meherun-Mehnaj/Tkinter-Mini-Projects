@@ -101,5 +101,6 @@ class TicTacToe2(Tk):
         self.button9.config(text=" ")
         self.label1.config(text="Player X's turn")
 
-c = TicTacToe2()
-c.mainloop()
+
+# c = TicTacToe2()
+# c.mainloop()
