@@ -10,19 +10,19 @@ class TicTacToeMainMenu(Tk):
     self.title("TicTacToe")
     self.geometry("327x350")
 
-    self["bg"]="white"
+    self["bg"]="lightblue"
 
     self.create_base()
     
   def create_base(self):
 
     #lABELSS
-    self.label1=Label(self, text="TicTacToe", font=("Helvetica", 25,"bold"),bg="white",fg="black")
+    self.label1=Label(self, text="TicTacToe", font=("Helvetica", 25,"bold"),bg="lightblue",fg="black")
     self.label1.place(relx=0.5,rely=0.1,anchor=CENTER)
-    self.label2=Label(self, text="Main Menu", font=("Helvetica", 16,"bold"),bg="white")
+    self.label2=Label(self, text="Main Menu", font=("Helvetica", 16,"bold"),bg="lightblue")
     self.label2.place(relx=0.5,rely=0.25,anchor=CENTER)
 
-    self.label3=Label(self, text="Choose a game mode", font=("Helvetica", 13,"bold"),bg="white")
+    self.label3=Label(self, text="Choose a game mode", font=("Helvetica", 13,"bold"),bg="lightblue")
     self.label3.place(relx=0.5,rely=0.38,anchor=CENTER)
 
     #BUTTONS
