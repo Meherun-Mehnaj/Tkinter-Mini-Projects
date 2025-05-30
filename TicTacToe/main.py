@@ -36,13 +36,13 @@ class TicTacToeMainMenu(Tk):
 
   def open_1player(self):
     self.destroy()
-    from player1 import TicTacToe1
+    from singleplayer import TicTacToe1
     c = TicTacToe1()
     c.mainloop()
 
   def open_2player(self):
     self.destroy()
-    from multiplayers import TicTacToe2
+    from multiplayer import TicTacToe2
     c = TicTacToe2()
     c.mainloop()
 
